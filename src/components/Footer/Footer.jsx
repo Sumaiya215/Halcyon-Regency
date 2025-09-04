@@ -3,9 +3,9 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-800 text-white font-semibold p-6">
+    <footer className="bg-slate-800 text-white font-semibold mt-22 p-6">
       {/* Social Icons */}
-      <nav className="flex justify-center space-x-6 mb-4">
+      <nav className="flex justify-center space-x-6  mb-4">
         <a href="#">
           <svg
             xmlns="http://www.w3.org/2000/svg"
