@@ -5,7 +5,7 @@ import banner2 from "../../assets/images/5_1.jpg"
 import banner3 from "../../assets/images/2.jpg"
 const Banner = () => {
     return (
-        <div className="w-full mt-20 mb-64">
+        <div className="w-full mt-20 mb-22">
             <Carousel
                 showArrows={true}
                 infiniteLoop={true}
