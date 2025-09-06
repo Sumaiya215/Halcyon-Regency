@@ -30,13 +30,13 @@ const Services = () => {
                             className="rounded-lg shadow-lg"
                         >
                             <div>
-                                <img src={img1} className="w-full h-72 object-cover" alt="slide1" />
+                                <img src={img1} className="w-full h-72 object-cover rounded-2xl" alt="slide1" />
                             </div>
                             <div>
-                                <img src={img2}  className="w-full h-72 object-cover" alt="slide2" />
+                                <img src={img2}  className="w-full h-72 object-cover rounded-2xl" alt="slide2" />
                             </div>
                             <div>
-                                <img src={img3}  className="w-full h-72 object-cover" alt="slide3" />
+                                <img src={img3}  className="w-full h-72 object-cover rounded-2xl" alt="slide3" />
                             </div>
                         </Carousel>
                     </div>
@@ -75,13 +75,13 @@ const Services = () => {
                             className="rounded-lg shadow-lg"
                         >
                             <div>
-                                <img src={img4} className="w-full h-72 object-cover"  alt="slide1" />
+                                <img src={img4} className="w-full h-72 object-cover rounded-2xl"  alt="slide1" />
                             </div>
                             <div>
-                                <img src={img5} className="w-full h-72 object-cover"  alt="slide2" />
+                                <img src={img5} className="w-full h-72 object-cover rounded-2xl"  alt="slide2" />
                             </div>
                             <div>
-                                <img src={img6} className="w-full h-72 object-cover"  alt="slide3" />
+                                <img src={img6} className="w-full h-72 object-cover rounded-2xl"  alt="slide3" />
                             </div>
                         </Carousel>
                     </div>
@@ -102,13 +102,13 @@ const Services = () => {
                             className="rounded-lg shadow-lg"
                         >
                             <div>
-                                <img src={img7} className="w-full h-72 object-cover"  alt="slide1" />
+                                <img src={img7} className="w-full h-72 object-cover rounded-2xl"  alt="slide1" />
                             </div>
                             <div>
-                                <img src={img8} className="w-full h-72 object-cover"  alt="slide2" />
+                                <img src={img8} className="w-full h-72 object-cover rounded-2xl"  alt="slide2" />
                             </div>
                             <div>
-                                <img src={img9} className="w-full h-72 object-cover"  alt="slide3" />
+                                <img src={img9} className="w-full h-72 object-cover rounded-2xl"  alt="slide3" />
                             </div>
                         </Carousel>
                     </div>
