@@ -1,79 +1,73 @@
-import img1 from '../../assets/images/Garden-Tulum.jpg'
+import img1 from "../../assets/images/Garden-Tulum.jpg";
+import img2 from "../../assets/images/Baan-Mai-Khao.jpg";
+import img3 from "../../assets/images/nature.jpg";
 
 const Investment = () => {
-    return (
-        <section className="max-w-6xl mx-auto px-6 py-16">
-            {/* Header */}
-            <h2 className="text-4xl font-bold text-center mb-6">
-                Investment Opportunities & Exclusive Benefits
-            </h2>
-            <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-                Welcome to the largest integrated lifestyle, entertainment, and leisure
-                destination in Northern Bangladesh — a landmark project that combines
-                luxury, recreation, and sustainable business models under one roof.
+  return (
+    <section className="max-w-6xl mx-auto px-6 py-16">
+      {/* Header */}
+      <h2 className="text-4xl font-bold text-center mb-6">
+        Investment Opportunities &  Benefits
+      </h2>
+      <p className="text-center text-gray-800 max-w-3xl mx-auto mb-12">
+        Be part of the largest integrated lifestyle, entertainment, and leisure
+        hub in Northern Bangladesh — combining luxury, recreation, and sustainable
+        business models under one roof.
+      </p>
+
+      {/* Cards Grid */}
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {/* Card 1 */}
+        <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 px-6 pt-6">
+          <img src={img1} alt="Why Invest" className="w-full h-52 object-cover rounded-2xl" />
+          <div className="p-6 space-y-3">
+            <h3 className="text-xl font-semibold text-blue-700">Why Invest With Us?</h3>
+            <p className="text-gray-800 text-sm font-semibold">
+              North Bengal’s first & biggest lifestyle hub with hotel, resort,
+              amusement park, retail shops, and more.
             </p>
+            <ul className=" list-inside text-gray-500 text-sm space-y-1 pl-4">
+              <li>  - Prime location for tourists & corporates</li>
+              <li>  - Scenic rooftop & luxury cottages</li>
+              <li>  - Diversified business model</li>
+            </ul>
+          </div>
+        </div>
 
-            {/* Flex Container */}
-            <div className="flex flex-col lg:flex-row items-center gap-10">
-                {/* Left Image */}
-                <div className="w-full lg:w-1/2">
-                    <img
-                        src={img1}
-                        alt="Investment Opportunities"
-                        className="rounded-2xl shadow-lg"
-                    />
-                </div>
+        {/* Card 2 */}
+        <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 px-6 pt-6" >
+          <img src={img2} alt="Investment Highlights" className="w-full h-52 object-cover rounded-2xl" />
+          <div className="p-6 space-y-3">
+            <h3 className="text-xl font-semibold text-blue-700"> Investment Highlights</h3>
+            <p className="text-gray-800 text-sm font-semibold">
+              Affordable entry with proportional ownership and flexible payment options.
+            </p>
+            <ul className=" list-inside text-gray-500 text-sm space-y-1 pl-4">
+              <li>  - Minimum Share: ৳560,000 </li>
+              <li>  - Booking starts at ৳200,000</li>
+              <li>  - Easy EMI facilities</li>
+            </ul>
+          </div>
+        </div>
 
-                {/* Right Text */}
-                <div className="w-full lg:w-1/2 space-y-6">
-                    {/* Why Invest */}
-                    <div>
-                        <h3 className="text-2xl font-semibold mb-3">Why Invest With Us?</h3>
-                        <ul className="list-disc list-inside text-gray-700 space-y-2">
-                            <li>
-                                The first and biggest integrated lifestyle hub in North Bengal.
-                            </li>
-                            <li>
-                                Multiple ventures: 5-star hotel, resort, party center,
-                                amusement park, convention center, picnic spot, and retail
-                                shops.
-                            </li>
-                            <li>
-                                Scenic rooftop restaurant, botanical garden, and luxury
-                                cottages.
-                            </li>
-                            <li>
-                                Prime location attracting tourists, corporates, and families.
-                            </li>
-                            <li>World-class services with affordable investment.</li>
-                            <li>Sustainable infrastructure and diversified revenue streams.</li>
-                        </ul>
-                    </div>
+        {/* Card 3 */}
+        <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 px-6 pt-6">
+          <img src={img3} alt="Shareholder Privileges" className="w-full h-52 object-cover rounded-2xl" />
+          <div className="p-6 space-y-3">
+            <h3 className="text-xl font-semibold text-blue-700"> Shareholder Privileges</h3>
+            <p className="text-gray-800 text-sm font-semibold">
+              Unlock exclusive benefits and secure your future with lifetime rights.
+            </p>
+            <ul className=" list-inside text-gray-500 text-sm space-y-1 pl-4">
+              <li>  - Guaranteed ROI</li>
+              <li>  - Profit-sharing opportunities</li>
+              <li>  - Lifetime ownership</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-                    {/* Investment Highlights */}
-                    <div>
-                        <h3 className="text-2xl font-semibold mb-3">💰 Investment Highlights</h3>
-                        <ul className="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Minimum Share Value: ৳ 560,000 only </li>
-                            <li>Proportional ownership based on your investment.</li>
-                            <li>Booking requirement: ৳ 200,000 only </li>
-                            <li>Flexible EMI options available </li>
-                        </ul>
-                    </div>
-
-                    {/* Shareholder Privileges */}
-                    <div>
-                        <h3 className="text-2xl font-semibold mb-3">🎁 Shareholder Privileges</h3>
-                        <ul className="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Guaranteed ROI (Return on Investment).</li>
-                            <li>Profit-sharing opportunities.</li>
-                            <li>Lifetime ownership rights.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-}
-
-export default Investment
+export default Investment;
