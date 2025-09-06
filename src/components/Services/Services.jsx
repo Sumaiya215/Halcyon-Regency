@@ -11,7 +11,7 @@ import img8 from "../../assets/images/5.jpg"
 import img9 from "../../assets/images/Aquatica.jpg"
 const Services = () => {
     return (
-        <>
+        <section className="max-w-[420px] mx-auto lg:max-w-7xl ">
             <h3 className="text-4xl text-center font-bold mt-24 mb-12">
                 Our Services
             </h3>
@@ -123,7 +123,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 
