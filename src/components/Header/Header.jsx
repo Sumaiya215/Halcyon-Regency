@@ -14,7 +14,7 @@ const Header = () => {
             </div>
 
             {/* Right: Menu */}
-            <div className="flex items-center p-6">
+            <div className="flex items-center ">
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex menu menu-horizontal px-1 space-x-4">
                     <li>
