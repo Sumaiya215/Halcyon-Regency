@@ -10,7 +10,7 @@ const Welcome = () => {
       <div className="flex flex-col lg:flex-row items-center gap-12 pt-22">
         {/* Left: Text Section */}
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h3 className="text-xl font-bold text-primary">Grand Welcome</h3>
+          <h3 className="text-xl font-bold italic">Grand Welcome</h3>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">
             Halcyon Regency Hotel & Resort
           </h1>

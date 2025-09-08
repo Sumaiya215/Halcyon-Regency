@@ -21,7 +21,7 @@ const Investment = () => {
         <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 px-6 pt-6">
           <img src={img1} alt="Why Invest" className="w-full h-52 object-cover rounded-2xl" />
           <div className="p-6 space-y-3">
-            <h3 className="text-xl font-semibold text-blue-700">Why Invest With Us?</h3>
+            <h3 className="text-xl font-bold ">Why Invest With Us?</h3>
             <p className="text-gray-800 text-sm font-semibold">
               North Bengal’s first & biggest lifestyle hub with hotel, resort,
               amusement park, retail shops, and more.
@@ -38,7 +38,7 @@ const Investment = () => {
         <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 px-6 pt-6" >
           <img src={img2} alt="Investment Highlights" className="w-full h-52 object-cover rounded-2xl" />
           <div className="p-6 space-y-3">
-            <h3 className="text-xl font-semibold text-blue-700"> Investment Highlights</h3>
+            <h3 className="text-xl font-bold"> Investment Highlights</h3>
             <p className="text-gray-800 text-sm font-semibold">
               Affordable entry with proportional ownership and flexible payment options.
             </p>
@@ -54,7 +54,7 @@ const Investment = () => {
         <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 px-6 pt-6">
           <img src={img3} alt="Shareholder Privileges" className="w-full h-52 object-cover rounded-2xl" />
           <div className="p-6 space-y-3">
-            <h3 className="text-xl font-semibold text-blue-700"> Shareholder Privileges</h3>
+            <h3 className="text-xl font-bold "> Shareholder Privileges</h3>
             <p className="text-gray-800 text-sm font-semibold">
               Unlock exclusive benefits and secure your future with lifetime rights.
             </p>
